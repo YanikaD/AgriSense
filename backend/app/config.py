@@ -9,7 +9,7 @@ class Settings:
     NEO4J_PASSWORD: str = os.getenv("NEO4J_PASSWORD", "")
     OPENAI_API_KEY: str = os.getenv("OPENAI_API_KEY", "")
     OPENAI_MODEL: str = os.getenv("OPENAI_MODEL", "gpt-4o-mini")
-    CORS_ORIGINS: str = os.getenv("CORS_ORIGINS", "http://localhost:3000")
+    CORS_ORIGINS: str = os.getenv("CORS_ORIGINS", "https://agrisense-backend-production-a012.up.railway.app")
 
     def require(self):
         missing = [
