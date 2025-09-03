@@ -8,7 +8,14 @@ __pycache__/
 *.pyd
 *.sqlite3
 .ipynb_checkpoints
+
+# ignore backend resources
+backend/resource/
+
+# protect env files (but allow example files)
 .env
+.env.*
+!.env.example
 
 # -------------------------
 # Node.js / Next.js frontend
@@ -43,7 +50,9 @@ yarn-error.log*
 pnpm-debug.log*
 
 # env files
-.env*
+.env
+.env.*
+!.env.example
 .vercel
 
 # typescript
