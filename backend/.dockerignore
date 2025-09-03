@@ -1,0 +1,19 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+.venv/
+
+# Local env file
+.env
+
+# Resources (don’t copy into container)
+resource/
+
+# Other common stuff
+.git
+.gitignore
+Dockerfile

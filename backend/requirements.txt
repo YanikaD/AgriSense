@@ -1,0 +1,17 @@
+neo4j 
+python-dotenv 
+openai
+python-docx 
+PyPDF2 
+langchain 
+tiktoken 
+langchain-openai 
+langchain-community 
+langchain-experimental 
+pydantic
+fastapi
+uvicorn[standard]
+python-dotenv
+pandas
+python-multipart
+pythainlp

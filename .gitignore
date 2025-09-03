@@ -1,0 +1,9 @@
+resource/
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+.ipynb_checkpoints
+.env
