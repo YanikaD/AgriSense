@@ -74,7 +74,7 @@ export default function ChatPanel() {
     setIsGenerating(true);
 
     try {
-      const resp = await fetch(`https://agrisense-backend-production-a012.up.railway.app/chat`, {
+      const resp = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/chat`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ question: text.trim() }),
